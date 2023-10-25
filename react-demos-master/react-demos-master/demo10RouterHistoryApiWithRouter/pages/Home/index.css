@@ -1,0 +1,21 @@
+.link-message {
+    border-radius: 0;
+    display: inline-block;
+}
+
+.link-news {
+    border-radius: 0;
+    display: inline-block;
+}
+
+.tabs {
+    border-radius: 3px;
+    overflow: hidden;
+    width: 200px;
+    display: flex;
+}
+
+.tabs .btn {
+    flex: 1;
+    text-align: center;
+}

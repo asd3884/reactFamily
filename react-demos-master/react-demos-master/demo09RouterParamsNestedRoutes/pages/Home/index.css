@@ -1,0 +1,12 @@
+.link-message {
+    border-radius: 0;
+    display: inline-block;
+}
+.link-news {
+    border-radius: 0;
+    display: inline-block;
+}
+.tabs {
+    border-radius: 3px;
+    overflow: hidden;
+}

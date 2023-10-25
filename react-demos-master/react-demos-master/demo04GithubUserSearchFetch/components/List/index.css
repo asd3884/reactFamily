@@ -1,0 +1,24 @@
+.user-list {
+    list-style: none;
+}
+.user-list li {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    height: 160px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.user-list li .avatar {
+    height: 100px;
+}
+.user-list li .avatar img {
+    height: 100%;
+    display: block;
+    margin: 10px auto 0;
+}
+.user-list li .name {
+    text-align: center;
+    margin-top: 20px;
+}

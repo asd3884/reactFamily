@@ -1,0 +1,8 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.messages a:not(.btn) {
+    text-decoration: underline;
+}

@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.app {
+    width: 600px;
+    margin: 2em auto;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+}
+.add {
+    width: 100%;
+    line-height: 3.0;
+    text-indent: 1em;
+    border-radius: 3px;
+    /*margin: 0 auto;*/
+    border: 1px solid #ccc;
+    outline: 0;
+    margin-bottom: 2em;
+}
+.lists {
+    border-radius: 3px;
+    list-style: none;
+    margin-bottom: 1em;
+}
+.list {
+    border: 1px solid #ccc;
+    padding: 0.3em 0.5em;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    transition: all 0.3s;
+    height: 30px;
+    vertical-align: middle;
+}
+.list label {
+    line-height: 100%;
+    vertical-align: middle;
+}
+.list:hover {
+    background: #eee;
+}
+.list:hover .btn-delete {
+    display: block;
+}
+input[type="checkbox"] {
+    margin-right: 1em;
+}
+.btn-clear {
+    float: right;
+}
+.btn-delete {
+    float: right;
+    display: none;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 100%;
+}
+.btn {
+    border: 0 none;
+    background: transparent;
+}
+.btn-danger {
+    background: #e35520;
+    color: #fff;
+    border-radius: 3px;
+    padding: 0.3em 0.5em;
+    box-shadow: 0 0 3px #ccc;
+    cursor: pointer;
+    outline: 0;
+}
+.btn-danger:active{
+    box-shadow: 0 0 3px inset #ccc;
+}
+.footer {
+    padding: 0.5em
+}

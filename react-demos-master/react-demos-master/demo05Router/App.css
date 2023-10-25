@@ -1,0 +1,46 @@
+.app {
+    width: 700px;
+    margin: 0 auto;
+    /*background: #ccc;*/
+}
+.app h1 {
+    font-size: 1.8em;
+    line-height: 2.0;
+    border-bottom: 1px solid #eee;
+}
+.app .container {
+    display: flex;
+}
+.app .container nav {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+.app .container nav a:hover,
+.app .container nav a:active,
+.app .container nav a:link,
+.app .container nav a:visited
+{
+    color: #333;
+    text-decoration: none;
+}
+.app .container nav a.active {
+    background: lightpink !important;
+}
+.app .container nav .btn {
+    background: transparent;
+    border: 1px solid #eee;
+    padding: 1em 2em;
+}
+.app .container nav a.btn {
+    border: 0 none;
+    border-bottom: 1px solid #eee;
+}
+.app .container nav a.btn:last-child {
+    border: 0 none;
+}
+.app .container .pages {
+    border-bottom: 1px solid #eee;
+}
